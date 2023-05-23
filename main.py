@@ -10,10 +10,10 @@ inventory = {}
 # Fish lists
 common_fish = ['숭어', '붕어', '우럭', '참돔', '연어', '송어', '청어', '넙', '고등어', '멸치', '새우', '가물치', '가멸치', '송사리', '가을치', '가멸치', '참비늘 숭어']
 rare_fish = ['장어', '복어', '참치치', '쏠베감펭', '곰치', '무지게 송어', '핑거 쉬림프', '레드테일 캣피쉬']
-super_rare_fish = ['가오', 'dolphins', 'anglerfish', 'sturgeon', 'vampire squid', 'oarfish', 'Napoleon fish']
-epic_fish = ['giant sea bass', 'barracuda', 'dorado', 'dumbo octopus', 'snakehead', 'sea turtle']
-legendary_fish = ['mackerel', 'tiger shark', 'tarpon', 'sailfish', 'marlin', 'arowana']
-mythic_fish = ['sunfish', 'whale shark', 'great white shark', 'killer whale', 'giant squid']
+super_rare_fish = ['가오리', '돌고래', '아귀', '철갑주상어', '뱀파이어 오징어', '산갈치', '나폴레옹 피쉬']
+epic_fish = ['자이언티 씨배스', '바라쿠다', '도라도', '덤보 문어', '가물치', '바다 거북']
+legendary_fish = ['만새기', '범 상어', '뱀 상어', '타폰', '돛새치', '아로와나']
+mythic_fish = ['개복치', '고래 상어', '백상아리', '범고래', '대왕오징어']
 JunCho_fish = ['블롭피쉬', '메갈로돈', '모사 사우루스', '크라켄', '삼엽충']
 
 @bot.event
