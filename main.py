@@ -8,7 +8,7 @@ bot = commands.Bot(command_prefix='!')
 inventory = {}
 
 # Fish lists
-common_fish = ['숭어', '붕어', '우럭', '참돔', '연어', '송어', '청어', '넙', '고등어', '멸치', '새우', '가물치', '가멸치', '송사리', '가을치', '가멸치', '참비늘 숭어']
+common_fish = ['숭어', '붕어', '우럭', '참돔', '연어', '송어', '청어', '치치', '고등어', '멸치', '새우', '가물치', '가멸치', '송사리', '가을치', '가멸치', '참비늘 숭어']
 rare_fish = ['장어', '복어', '참치치', '쏠베감펭', '곰치', '무지게 송어', '핑거 쉬림프', '레드테일 캣피쉬']
 super_rare_fish = ['가오리', '돌고래', '아귀', '철갑주상어', '뱀파이어 오징어', '산갈치', '나폴레옹 피쉬']
 epic_fish = ['자이언티 씨배스', '바라쿠다', '도라도', '덤보 문어', '가물치', '바다 거북']
@@ -30,7 +30,7 @@ async def fish(ctx):
     mythic_chance = 0.0014
 
     catch_count = 1
-    message = f'{ctx.author.mention} 물고기를 잡았습니다!: '
+    message = f'{ctx.author.mention} 물고기를 잡았습니다! '
 
     if random.random() <= 0.12:
         catch_count = 2
